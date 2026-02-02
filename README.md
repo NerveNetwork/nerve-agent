@@ -77,20 +77,6 @@ In your MCP client (Cursor, Claude Desktop, etc.), set the path (replace `<PATH_
 
 ---
 
-## Pushing to GitHub
-
-To publish or maintain this repo under [NerveNetwork](https://github.com/NerveNetwork):
-
-```bash
-git remote add origin https://github.com/NerveNetwork/nerve-agent.git
-git branch -M main
-git push -u origin main
-```
-
-Add a **Description** and **Topics** (e.g. `nerve`, `mcp`, `blockchain`, `agent`, `payment`, `nerveswap`) on the repo to help discovery.
-
----
-
 ## License
 
 MIT
