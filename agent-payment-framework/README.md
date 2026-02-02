@@ -109,5 +109,5 @@ This lets the payer complete “query balance → swap (optional) → transfer�
 | [nerveswap sdk/NerveSwap JS SDK.md](../nerveswap%20sdk/NerveSwap%20JS%20SDK.md) | NerveSwap JS SDK |
 | [nerveswap sdk/Nerve Public-Service API.md](../nerveswap%20sdk/Nerve%20Public-Service%20API.md) | Nerve public API reference |
 
-AI Agent quick integration: **Skills** [.skills/nerve-agent-payment/SKILL.md](../.skills/nerve-agent-payment/SKILL.md).  
+AI Agent quick integration: **Skills** [.skills/nerve-agent-payment/SKILL.md](./skills/nerve-agent-payment/SKILL.md).  
 Repository: <https://github.com/NerveNetwork/nerve-agent>.
