@@ -54,7 +54,7 @@ In your MCP client (Cursor, Claude Desktop, etc.), set the path (replace `<PATH_
 ### 3. Use the payment framework and Skill
 
 - **Developers**: Read [agent-payment-framework/README.md](agent-payment-framework/README.md) for receive/pay flows, local accounts, and NerveSwap.
-- **AI Agents**: Enable the project Skill `.cursor/skills/nerve-agent-payment/` in Cursor to use MCP tools and SDK for Nerve payment, receive, pay, and balance flows.
+- **AI Agents**: Enable the project Skill `.skills/` in Cursor to use MCP tools and SDK for Nerve payment, receive, pay, and balance flows.
 
 ---
 
