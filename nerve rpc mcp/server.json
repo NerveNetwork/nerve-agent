@@ -1,0 +1,20 @@
+{
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.github.NerveNetwork/nerve-rpc",
+    "description": "MCP server for Nerve blockchain JSON-RPC & REST API for AI Agents",
+    "repository": {
+        "url": "https://github.com/NerveNetwork/nerve-agent",
+        "source": "github"
+    },
+    "version": "1.0.0",
+    "packages": [
+        {
+            "registryType": "npm",
+            "identifier": "nerve-rpc-mcp",
+            "version": "1.0.0",
+            "transport": {
+                "type": "stdio"
+            }
+        }
+    ]
+}

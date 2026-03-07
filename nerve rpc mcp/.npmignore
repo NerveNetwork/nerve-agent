@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.env
+.DS_Store
+mcp-publisher
+mcp-publisher/
+src/
+tsconfig.json

@@ -1,0 +1,16 @@
+# Dependencies and build
+node_modules/
+dist/
+*.log
+.env
+.env.*
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Optional: uncomment if you want to ignore lock files
+# package-lock.json
