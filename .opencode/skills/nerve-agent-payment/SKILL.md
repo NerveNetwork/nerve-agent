@@ -5,6 +5,12 @@ description: >
   receive crypto, pay on-chain, transfer tokens, swap via NerveSwap, query transaction, decentralized gas-free payment.
   Triggers: "Nerve payment", "Nerve address", "NVT", "receive crypto", "pay on-chain", "NerveSwap", "blockchain payment",
   "cross-chain swap", "Agent wallet", "no gas fee", "nerve-sdk-js", "nerve_get_balance_list".
+license: MIT
+compatibility: opencode
+metadata:
+  repo: https://github.com/NerveNetwork/nerve-agent
+  category: blockchain-payment
+  chain: nerve
 ---
 
 # Nerve Agent Payment Integration
@@ -43,6 +49,8 @@ Add to your MCP client (Cursor, Claude Desktop, etc.) — replace `<PATH>` with 
   }
 }
 ```
+
+Or with npx (after npm publish): `"command": "npx", "args": ["-y", "nerve-rpc-mcp"]`
 
 Build once: `cd "nerve rpc mcp" && npm install && npm run build`
 
@@ -161,9 +169,7 @@ await nerveswap.transfer.transfer({ provider, from, to, ... });
 
 For Agent / server use, wrap `nerve-sdk-js` as a local provider:
 - **Option A**: Build + sign tx via `nerve-sdk-js`, broadcast with `nerve_jsonrpc("broadcastTx", [...])`.
-- **Option B**: Implement Provider interface using `nerve-sdk-js`'s `exportKeyInfo` and sign method; pass to `transfer.transfer` / `swap.swapTrade`.
-
-Key never leaves the device.
+- **Option B**: Implement Provider interface using `nerve-sdk-js`'s `exportKeyInfo` and sign method; pass to `transfer.transfer` / `swap.swapTrade`. Keep the private key only locally or in a secure module.
 
 ---
 
